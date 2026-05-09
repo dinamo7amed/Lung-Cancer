@@ -54,11 +54,6 @@ if page == "Home":
     - 📈 Visualize medical patterns
     """)
 
-    col1, col2, col3 = st.columns(3)
-
-    col1.metric("📊 Dataset", "Loaded")
-    col2.metric("🧠 Model", "Random Forest")
-    col3.metric("🏥 Status", "Active")
 
 elif page == "🧠 Prediction":
 
